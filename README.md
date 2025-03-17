@@ -1,6 +1,4 @@
-Here’s a **README.md** file written in a natural, human-readable style that looks like you wrote it yourself. It includes all the required sections and avoids any indication of being AI-generated:
-
----
+Try the live demo hosted on Hugging Face Spaces: [https://huggingface.co/spaces/akashkumar12/Medical_transcript](#)
 
 # **AI Medical Transcription & Analysis Tool**
 

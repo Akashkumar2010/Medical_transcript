@@ -1,0 +1,29 @@
+1. How would you handle ambiguous or missing medical data in the transcript?
+Use context clues to guess missing info (e.g., symptoms → diagnosis)
+Flag unclear parts and ask for clarification if possible
+Use default values or common patterns to fill gaps
+
+2. What pre-trained NLP models would you use for medical summarization?
+Use BioBERT or ClinicalBERT—they’re trained on medical text
+DistilBART is great for quick, accurate summaries
+These models understand medical terms better than general ones
+
+3. How would you fine-tune BERT for medical sentiment detection?
+Get a healthcare sentiment dataset (e.g., patient reviews)
+Add a sentiment classification layer to BERT and train it
+Use a low learning rate to avoid overwriting what BERT already knows
+
+4. What datasets would you use for training a healthcare-specific sentiment model?
+MIMIC-III has patient-doctor conversations with sentiment clues
+Use patient reviews or healthcare tweets labeled with sentiment
+If needed, create a custom dataset from public medical conversations
+
+5. How would you train an NLP model to map medical transcripts into SOAP format?
+Collect transcripts and their SOAP notes as training data
+Use a model like T5 to learn the mapping between them
+Add rules to ensure the output follows the SOAP structure
+
+6. What rule-based or deep-learning techniques would improve the accuracy of SOAP note generation?
+Use keyword matching to map text to SOAP sections
+Fine-tune models like T5 or BART for better text generation
+Combine both: use AI for mapping and rules for formatting
